@@ -14,6 +14,6 @@ def fetch_trends(keywords):
 
 if __name__ == "__main__":
     #'cargo pants', 'dress pants', 'blue jeans', 'black jeans', 
-    keywords = ['dress pants','straight jeans', 'baggy jeans', 'bootcut jeans']
+    keywords = ['dress pants', 'blue jeans', 'black jeans', 'dress pants','straight jeans', 'baggy jeans', 'bootcut jeans']
     trend_data = fetch_trends(keywords)
-    trend_data.to_csv('data/trendData.csv', index=False)
+    trend_data.to_csv('data/trend_data.csv', index=False)
