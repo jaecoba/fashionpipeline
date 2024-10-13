@@ -1,3 +1,5 @@
 venv/
 data/
 scripts/.env
+*.pyc
+__pycache__/
