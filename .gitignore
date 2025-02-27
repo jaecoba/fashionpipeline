@@ -3,3 +3,4 @@ data/
 scripts/.env
 *.pyc
 __pycache__/
+logs/
